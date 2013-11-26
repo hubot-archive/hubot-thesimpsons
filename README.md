@@ -2,7 +2,7 @@
 
 A Simpsons Quote and Image Generator for Hubots.
 
-See [`src/index.coffee`](src/index.coffee) for full documentation.
+See [`src/simpsons.coffee`](src/simpsons.coffee) for full documentation.
 
 ## Installation
 
