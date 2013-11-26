@@ -2,7 +2,7 @@
 
 A Simpsons Quote and Image Generator for Hubots.
 
-See [`src/hello-world.coffee`](src/hello-world.coffee) for full documentation.
+See [`src/index.coffee`](src/index.coffee) for full documentation.
 
 ## Installation
 
@@ -23,11 +23,15 @@ Add **hubot-simpsons** to your `external-scripts.json`:
 ["hubot-simpsons"]
 ```
 
-Run `npm install`
+Run `npm install hubot-simpsons`
 
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot simpsons quote
+hubot>> "Good thing I drink plenty of… malk?"
+```
+```
+user1>> hubot simpsons image
+hubot>> "http://i.imgur.com/9hhkx.jpg"
 ```
