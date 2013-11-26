@@ -1,7 +1,7 @@
 {
   "name": "hubot-simpsons",
   "description": "A Simpsons Quote and Image Generator for Hubots.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "omardelarosa <thedelarosa@gmail.com>",
   "license": "MIT",
   "keywords": [
