@@ -1,25 +1,28 @@
 {
   "name": "hubot-simpsons",
   "description": "A Simpsons Quote and Image Generator for Hubots.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "omardelarosa <thedelarosa@gmail.com>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts","simpsons","quote","image","humor","funny"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "simpsons",
+    "quote",
+    "image",
+    "humor",
+    "funny"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/omardelarosa/hubot-simpsons.git"
   },
-
   "bugs": {
     "url": "https://github.com/omardelarosa/hubot-simpsons/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +33,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
