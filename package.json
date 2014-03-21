@@ -1,0 +1,38 @@
+{
+  "name": "hubot-imgur_thesimpsons",
+  "description": "A hubot script to show imgur.com/r/TheSimpsons images",
+  "version": "1.0.0",
+  "author": "JJ Asghar <jjasghar@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jjasghar/hubot-imgur_thesimpsons.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/jjasghar/hubot-imgur_thesimpsons/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
