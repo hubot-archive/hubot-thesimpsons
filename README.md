@@ -29,6 +29,6 @@ Run `npm install hubot-imgur_thesimpsons`
 ## Sample Interaction
 
 ```
-user1>> hubot simpsons
+user1>> hubot simpsons me
 hubot>> http://i.imgur.com/mKzawbN.png
 ```
