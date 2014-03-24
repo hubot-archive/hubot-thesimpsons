@@ -44,7 +44,6 @@ Add **hubot-simpsons** to your `external-scripts.json`:
 user1>> hubot simpsons quote
 hubot>> "Good thing I drink plenty of… malk?"
 ```
-```
 user1>> hubot simpsons image
 hubot>> http://i.imgur.com/mKzawbN.png
 ```
