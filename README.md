@@ -1,20 +1,14 @@
-# Hubot: hubot-simpsons
+# Hubot: hubot-imgur_thesimpsons
 
 A Simpsons Quote and Image Generator for Hubots.
 
 [![Build Status](https://travis-ci.org/jjasghar/hubot-imgur_thesimpsons.png?branch=master)](https://travis-ci.org/jjasghar/hubot-imgur_thesimpsons)
-
 
 See [`src/imgur_thesimpsons.coffee`](src/imgur_thesimpsons.coffee) for full documentation.
 
 ## Installation
 
 Add **hubot-imgur_thesimpsons** to your `package.json` file:
-
-## Installation
-
-Add **hubot-simpsons** to your `package.json` file:
->>>>>>> omar/master
 
 ```json
 "dependencies": {
@@ -32,18 +26,17 @@ Add **hubot-imgur_thesimpsons** to your `external-scripts.json`:
 
 Run `npm install hubot-imgur_thesimpsons`
 
-Add **hubot-simpsons** to your `external-scripts.json`:
+Add **hubot-imgur_thesimpsons** to your `external-scripts.json`:
 
 ```json
-["hubot-simpsons"]
+["hubot-imgur_thesimpsons"]
 ```
 
 ## Sample Interaction
 
 ```
-user1>> hubot simpsons quote
-hubot>> "Good thing I drink plenty of… malk?"
-```
-user1>> hubot simpsons image
+user1>> hubot simpson image me
 hubot>> http://i.imgur.com/mKzawbN.png
+user1>> hubot simpson quote me
+hubot>> "Good thing I drink plenty of… malk?"
 ```

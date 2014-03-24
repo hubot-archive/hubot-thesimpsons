@@ -1,10 +1,8 @@
 {
   "name": "hubot-imgur_thesimpsons",
   "description": "A hubot script to show some Simpsone quotes or  imgur.com/r/TheSimpsons images",
-  "version": "2.0.0",
-  "author": { 
-              "Omar Delarosa <thedelarosa@gmail.com>",
-              "JJ Asghar <jjasghar@gmail.com>"
+  "version": "2.0.1",
+  "author":  "JJ Asghar <jjasghar@gmail.com>",
   "license": "MIT",
 
   "keywords": [
