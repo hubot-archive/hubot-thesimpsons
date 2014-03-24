@@ -2,18 +2,32 @@
 #   A Simpsons Quote and Image Generator for Hubots.
 #
 # Configuration:
-#   None
+#   
 #
 # Commands:
-#   hubot simpson image me - displays a random image from imgur.com/r/TheSimpsons
-#   hubot simpson quote me - displays a random image from imgur.com/r/TheSimpsons
+#   hubot simpsons <quote|image> - A Great Simpsons Quote or Image
+#
+# Notes:
+#   
 #
 # Author:
-#   jjasghar 
 #   omardelarosa
-#
+
 
 module.exports = (robot) ->
+  robot.respond /simpsons (.*)$/i, (msg) ->
+    option = msg.match[1].trim()
+    content =
+      # Simpsons Images Via: http://imgur.com/gallery/USIbq
+      images: [
+        "http://i.imgur.com/psi2ZNZ.jpg",
+        "http://i.imgur.com/f8lZ3Ef.jpg",
+        "http://i.imgur.com/GW00fAn.jpg",
+        "http://i.imgur.com/r7J5W51.jpg",
+        "http://i.imgur.com/OSN1dsy.jpg",
+        "http://i.imgur.com/4aPFFIo.jpg",
+        "http://i.imgur.com/XvqbZcV.jpg",
+        "http://i.imgur.com/KAMHKgU.jpg"]
 
       # Quotes Via: http://thoughtcatalog.com/oliver-miller/2012/07/simpsons-quotes-in-order-of-awesomeness/
       quotes: [
@@ -115,18 +129,11 @@ module.exports = (robot) ->
         "Wow, with a cool dry wit like that, I could be an action hero.",
         "I noticed that he was wearing sneakers. For… sneaking.",
         "…You're in direct competition with each other! Fight, fight, fight, fight, fight, fight, fight!",
+        "They're getting away… very slowly.",
+        "…If anyone needs me, I'll be in my room."]
 
-robot.respond /simpson quote me\b/i, (msg) ->
-   msg.send msg.random content.quotes
-
-robot.respond /simpson image me\b/i, (msg) ->
-    simpsonMe(msg, 1)
-
-  simpsonMe = (msg, num) ->
-    msg.http("http://imgur.com/r/TheSimpsons.json")
-     .get() (err, res, body) ->
-       content = JSON.parse(body)
-       for i in [1..num]
-         simpson = msg.random content.data
-         msg.send "http://imgur.com/#{simpson.hash}#{simpson.ext}"
+    switch option
+      when "quote" then msg.send msg.random content.quotes
+      when "image" then msg.send msg.random content.images
+      else msg.send "D'oh! Don't know that option!"
 
