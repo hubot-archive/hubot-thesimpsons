@@ -5,8 +5,8 @@
 #   None
 #
 # Commands:
-#   hubot simpson image me - displays a random image from imgur.com/r/TheSimpsons
-#   hubot simpson quote me - displays a random image from imgur.com/r/TheSimpsons
+#   hubot simpsons image me - displays a random image from imgur.com/r/TheSimpsons
+#   hubot simpsons quote me - displays a random quote from the simpsons
 #
 # Author:
 #   jjasghar
@@ -116,10 +116,10 @@ quotes = [
    "…You're in direct competition with each other! Fight, fight, fight, fight, fight, fight, fight!"
 ]
 module.exports = (robot) ->
-  robot.respond /simpson quote me\b/i, (msg) ->
+  robot.respond /simpsons quote me\b/i, (msg) ->
      msg.send msg.random quotes
 
-  robot.respond /simpson image me\b/i, (msg) ->
+  robot.respond /simpsons image me\b/i, (msg) ->
       simpsonMe(msg, 1)
 
     simpsonMe = (msg, num) ->
