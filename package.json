@@ -1,7 +1,7 @@
 {
   "name": "hubot-thesimpsons",
   "description": "A hubot script to show some Simpsone quotes or  imgur.com/r/TheSimpsons images",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "author":  "JJ Asghar <jjasghar@gmail.com>",
   "license": "MIT",
    "contributors": [
@@ -18,11 +18,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git@github.com:jjasghar/hubot-thesimpsons.git"
+    "url": "git@github.com:hubot-scripts/hubot-thesimpsons.git"
   },
 
   "bugs": {
-    "url": "https://github.com/jjasghar/hubot-thesimpsons/issues"
+    "url": "https://github.com/hubot-scripts/hubot-thesimpsons/issues"
   },
 
   "dependencies": {
