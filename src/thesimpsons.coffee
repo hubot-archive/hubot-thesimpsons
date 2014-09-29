@@ -128,10 +128,12 @@ module.exports = (robot) ->
       simpsonMe(msg, 1)
 
     simpsonMe = (msg, num) ->
-      msg.http("http://imgur.com/r/TheSimpsons.json")
+      msg.http("https://api.imgur.com/3/gallery/r/TheSimpsons.json")
+       .headers(Authorization: 'Client-ID 8e4f0ec64cc27f6')
        .get() (err, res, body) ->
          content = JSON.parse(body)
-         for i in [1..num]
-           simpson = msg.random content.data
-           msg.send "http://imgur.com/#{simpson.hash}#{simpson.ext}"
+         if content.data and content.data.length > 0
+           msg.send (msg.random content.data).link
+         else
+           msg.send "D'oh!  No response from Imgur."
 
