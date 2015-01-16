@@ -171,6 +171,11 @@ quotes = [
    "Oh, balderdash. It's not important how old you are on parchment, it's how old you feel in the humours! -Mr Burns",
    "Compadres, it is imperative that we crush the freedom fighters before the start of the rainy season. And remember, a shiny new donkey for whomever brings me the head of Colonel Montoya. -Mr Burns",
    "Have the Rolling Stones killed. -Mr Burns",
+   "I don't know why. It's a perfectly cromulent word. -Miss Hoover",
+   "Roads closed, pipes frozen, albinos...virtually invisible. The Weather Service has upgraded Springfield's blizzard from Winter Wonderland to a Class 3 Kill-Storm. -Kent Brockman",
+   "Oh, I have had it, I have had it with this school, Skinner! The low test scores, class after class of ugly, ugly children! -Superintendent Chalmers",
+   "You have 24 hours to give us our money. And to show you we're serious...you have 12 hours. -Fat Tony",
+   "I can't wait to eat that monkey. -Grandpa Simpson",
    "Uh, did I say corpse hatch? I meant innocence tube. -Mr Burns"
 ]
 
