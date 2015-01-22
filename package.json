@@ -2,43 +2,36 @@
   "name": "hubot-thesimpsons",
   "description": "A hubot script to show some Simpsone quotes or  imgur.com/r/TheSimpsons images",
   "version": "1.1.2",
-  "author":  "JJ Asghar <jjasghar@gmail.com>",
+  "author": "JJ Asghar <jjasghar@gmail.com>",
   "license": "MIT",
-   "contributors": [
+  "contributors": [
     {
       "name": "Omar Delarosa",
       "email": "thedelarosa@gmail.com"
     }
-   ],
-
+  ],
   "keywords": [
     "hubot",
     "hubot-scripts"
   ],
-
   "repository": {
     "type": "git",
     "url": "git@github.com:hubot-scripts/hubot-thesimpsons.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-thesimpsons/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
+    "chai": "^1.9.2",
     "mocha": "*",
-    "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*"
+    "sinon": "*",
+    "sinon-chai": "*"
   },
-
   "main": "index.coffee",
-
   "scripts": {
-    "test": "script/test"
+    "test": "mocha -R spec --compilers coffee:coffee-script test/thesimpsons.coffee"
   }
 }
