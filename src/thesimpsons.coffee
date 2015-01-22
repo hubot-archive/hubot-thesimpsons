@@ -185,6 +185,9 @@ module.exports = (robot) ->
 
   robot.respond /simpsons image me\b/i, (msg) ->
       simpsonMe(msg, 1)
+   
+  robot.respond /simpsons version\b/i, (msg) ->
+      msg.send require('../package').version
 
     simpsonMe = (msg, num) ->
       msg.http("https://api.imgur.com/3/gallery/r/TheSimpsons.json")
