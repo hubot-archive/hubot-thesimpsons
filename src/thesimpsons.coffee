@@ -56,7 +56,7 @@ quotes = [
    "I can't believe you don't shut up! -Apu Nahasapeemapetilon",
    "Ah, alcohol and night-swimming. It's a winning combination. –Lenny",
    "I would kill everyone in this room for a drop of sweet beer. -Homer Simpson",
-   "My eyes! The goggles do nothing! -Rainer Wolfcastle",
+   "My eyes! The goggles do nothing! -Rainier Wolfcastle",
    "Priceless like a mother's love, or the good kind of priceless? -Bart Simpson",
    "Science. What's science ever done for us? TV off. -Moe the Bartender",
    "Chocolate microscopes? -Ralph Wiggum",
