@@ -1,7 +1,7 @@
 {
   "name": "hubot-thesimpsons",
   "description": "A hubot script to show some Simpsone quotes or  imgur.com/r/TheSimpsons images",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "author": "JJ Asghar <jjasghar@gmail.com>",
   "license": "MIT",
   "contributors": [
