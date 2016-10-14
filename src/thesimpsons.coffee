@@ -192,9 +192,12 @@ module.exports = (robot) ->
       msg.http("https://api.imgur.com/3/gallery/r/TheSimpsons.json")
        .headers(Authorization: 'Client-ID 8e4f0ec64cc27f6')
        .get() (err, res, body) ->
-         content = JSON.parse(body)
-         if content.data and content.data.length > 0
-           msg.send (msg.random content.data).link
+         if body?
+           content = JSON.parse(body)
+           if content?.data and content.data.length > 0
+             msg.send (msg.random content.data).link
+           else
+             msg.send "D'oh!  No response from Imgur."
          else
            msg.send "D'oh!  No response from Imgur."
 
