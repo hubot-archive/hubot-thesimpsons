@@ -2,6 +2,8 @@ chai = require 'chai'
 sinon = require 'sinon'
 chai.use require 'sinon-chai'
 
+thesimpsons = require('../src/thesimpsons')
+
 expect = chai.expect
 
 describe 'hubot-simpsons', ->
@@ -10,7 +12,7 @@ describe 'hubot-simpsons', ->
       respond: sinon.spy()
       hear: sinon.spy()
 
-    require('../src/thesimpsons')(@robot)
+    thesimpsons(@robot)
 
   describe 'quotes', ->
     it 'registers a respond listener for "simpsons quote me"', ->

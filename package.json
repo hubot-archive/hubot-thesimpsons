@@ -28,10 +28,10 @@
     "coffee-script": "~1.6"
   },
   "devDependencies": {
-    "chai": "^1.9.2",
-    "mocha": "*",
-    "sinon": "*",
-    "sinon-chai": "*"
+    "chai": "1.9.2",
+    "mocha": "3.1.2",
+    "sinon": "1.10.3",
+    "sinon-chai": "2.5.0"
   },
   "main": "index.coffee",
   "scripts": {
