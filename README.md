@@ -2,7 +2,7 @@
 
 A Simpsons Quote and Image Generator for Hubots.
 
-[![Build Status](https://travis-ci.org/jjasghar/hubot-thesimpsons.png?branch=master)](https://travis-ci.org/jjasghar/hubot-thesimpsons)
+[![Build Status](https://travis-ci.org/hubot-scripts/hubot-thesimpsons.png?branch=master)](https://travis-ci.org/hubot-scripts/hubot-thesimpsons)
 
 See [`src/thesimpsons.coffee`](src/thesimpsons.coffee) for full documentation.
 
